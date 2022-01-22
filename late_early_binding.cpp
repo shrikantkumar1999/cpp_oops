@@ -1,5 +1,11 @@
 // CPP program to illustrate
 // working of Virtual Functions
+/*e binding (Runtime) is done in accordance with the content of pointer (i.e. location pointed
+//to by pointer) and Early binding (Compile time) is done according to the 
+//type of pointer, since print() function is declared with virtual keyword so it will be bound at
+//runtime (output is print derived class as pointer is pointing to object of
+//derived class) and show() is non-virtual so it will be bound during compile time (output is 
+// show base class as pointer is of base type).*/
 #include<iostream>
 using namespace std;
 
